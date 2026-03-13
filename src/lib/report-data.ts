@@ -50,11 +50,11 @@ export const projectMeta = {
   status: "Completed",
   priority: "High",
   responsible: "Project Team",
-  deadline: "December 25, 2025",
+  deadline: "February 28, 2026",
 };
 
 export const executiveSummary =
-  "During the initial implementation phase, the team built the technical, strategic, and operational foundations needed to launch and scale the Bethaus platform across Latin America.";
+  "During the initial implementation phase, the team built the technical, strategic, and operational foundations intended to reduce launch risk by connecting market demand, brand positioning, information structure, and internal governance before scale.";
 
 export const focusAreas = [
   "Website architecture and technical readiness",
@@ -69,7 +69,7 @@ export const launchOutcomes = [
   "A search-optimised site architecture",
   "Validated market demand across LATAM",
   "Reliable internal documentation",
-  "Strong foundations for organic growth",
+  "Search visibility will be supported by demand-led architecture and authority groundwork.",
 ];
 
 export const quickFacts = [
@@ -95,7 +95,7 @@ export const quickFacts = [
     value: "5",
     label: "keyword research tracks",
     description:
-      "Terminology, friction, strategy, academy, and transactional.",
+      "5 dedicated research files, each targeting a different content type and page type: terminology, user friction, game strategy, educational academy, and transactional acquisition.",
     filter: "SEO" as const,
   },
   {
@@ -293,9 +293,9 @@ export const sections: ReportSection[] = [
     theme: "SEO",
     title: "SEO Strategy & Keyword Research",
     headline:
-      "Keyword research mapped real search demand across acquisition, support, strategy, and education.",
+      "5 keyword research files built to cover every content type and page type needed for launch.",
     summary:
-      "The search strategy was built around five complementary research tracks designed to reduce vocabulary bias and target actual user intent in LATAM.",
+      "Each research track targets a distinct page type and user intent — from informational and educational content to support guides, game strategy pages, and high-conversion transactional landing pages. Together they map full search demand across LATAM.",
     metrics: [
       { label: "Research tracks", value: "5" },
       { label: "Target scope", value: "LATAM-wide" },

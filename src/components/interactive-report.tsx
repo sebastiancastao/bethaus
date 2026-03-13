@@ -739,14 +739,12 @@ export function InteractiveReport() {
               Organic growth has a stronger starting point
             </h2>
             <p className="mt-5 text-[17px] leading-[1.52] text-white/55">
-              The implementation phase did more than deliver tasks. It reduced
-              launch risk by connecting market demand, brand positioning,
-              information structure, and internal governance before scale.
+              The implementation phase did more than deliver tasks. It intended to reduced launch risk by connecting market demand, brand positioning, information structure, and internal governance before scale.
             </p>
 
             <div className="mt-8 space-y-2.5">
               {[
-                "Search visibility is now supported by demand-led architecture and authority groundwork.",
+                "Search visibility will be supported by demand-led architecture and authority groundwork.",
                 "Brand, editorial, and educational inputs are aligned before heavy content production begins.",
                 "Operational and documentation systems reduce friction as more stakeholders join execution.",
                 "Data controls improve confidence in future analytics and performance reporting.",
