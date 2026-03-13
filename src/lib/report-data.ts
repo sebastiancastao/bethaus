@@ -272,19 +272,19 @@ export const sections: ReportSection[] = [
           "Improves launch readiness.",
           "Supports SEO architecture planning.",
         ],
+        links: [
+          {
+            label: "Main architecture document",
+            url: "https://docs.google.com/document/d/1S8g2r0qoHk7geAoSXhHRDllDnICKfO-TpwEcCi9UK6c/edit",
+            kind: "Document",
+          },
+        ],
       },
     ],
     sectionImpact: [
       "No empty launch categories",
       "Homepage visibility aligned to revenue-critical titles",
       "Technical and SEO architecture grounded in real inventory",
-    ],
-    links: [
-      {
-        label: "Main architecture document",
-        url: "https://docs.google.com/document/d/1S8g2r0qoHk7geAoSXhHRDllDnICKfO-TpwEcCi9UK6c/edit",
-        kind: "Document",
-      },
     ],
   },
   {
@@ -562,24 +562,24 @@ export const sections: ReportSection[] = [
         ],
         result:
           "Created a shared reference point for messaging, positioning, and brand differentiation.",
+        links: [
+          {
+            label: "Brand brief",
+            url: "https://docs.google.com/document/d/1qtVpZ_n8sGZmoONP0u48RuCEGNzCBCJRLFOwalFr47o/edit",
+            kind: "Document",
+          },
+          {
+            label: "Editorial style guide",
+            url: "https://docs.google.com/document/d/1ngXBGD_FhFzFT5kxcCBaxPpnkVZxYkCcky8BHuMDloU/edit",
+            kind: "Document",
+          },
+        ],
       },
     ],
     sectionImpact: [
       "A clearer brand voice for launch",
       "Sharper differentiation against competitors",
       "More consistent briefs for content and design teams",
-    ],
-    links: [
-      {
-        label: "Brand brief",
-        url: "https://docs.google.com/document/d/1qtVpZ_n8sGZmoONP0u48RuCEGNzCBCJRLFOwalFr47o/edit",
-        kind: "Document",
-      },
-      {
-        label: "Editorial style guide",
-        url: "https://docs.google.com/document/d/1ngXBGD_FhFzFT5kxcCBaxPpnkVZxYkCcky8BHuMDloU/edit",
-        kind: "Document",
-      },
     ],
   },
   {

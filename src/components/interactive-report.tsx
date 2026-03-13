@@ -199,6 +199,36 @@ function SectionCard({
         ))}
       </div>
 
+      {/* Collapsed document preview */}
+      {!isExpanded && (() => {
+        const allLinks = section.details.flatMap((d) => d.links ?? []);
+        if (allLinks.length === 0) return null;
+        return (
+          <div className="mt-4 flex flex-wrap gap-2">
+            {allLinks.map((link) => (
+              <a
+                className="inline-flex items-center gap-2 rounded-[10px] border border-[#0071e3]/20 bg-[#0071e3]/[0.05] px-3 py-2 transition-all duration-200 hover:border-[#0071e3]/40 hover:bg-[#0071e3]/[0.09]"
+                href={link.url}
+                key={link.label}
+                rel="noreferrer"
+                target="_blank"
+              >
+                <svg className="h-3.5 w-3.5 shrink-0 text-[#0071e3]" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" strokeLinecap="round" strokeLinejoin="round" />
+                  <polyline points="14 2 14 8 20 8" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+                <span className="text-[12px] font-semibold text-[#0071e3]">{link.label}</span>
+                <svg className="h-3 w-3 text-[#0071e3]/50" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" strokeLinecap="round" strokeLinejoin="round" />
+                  <polyline points="15 3 21 3 21 9" strokeLinecap="round" strokeLinejoin="round" />
+                  <line strokeLinecap="round" strokeLinejoin="round" x1="10" x2="21" y1="14" y2="3" />
+                </svg>
+              </a>
+            ))}
+          </div>
+        );
+      })()}
+
       {/* Expanded details */}
       {isExpanded && (
         <div className="mt-7 space-y-6 border-t border-black/[0.06] pt-7">
@@ -288,9 +318,36 @@ function SectionCard({
                   )}
 
                   {detail.links && (
-                    <div className="flex flex-wrap gap-2 pt-0.5">
+                    <div className="space-y-2 pt-1">
+                      <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#86868b]">
+                        Documents
+                      </p>
                       {detail.links.map((link) => (
-                        <ResourcePill key={link.label} link={link} />
+                        <a
+                          className="flex items-center justify-between gap-3 rounded-[12px] border border-[#0071e3]/20 bg-[#0071e3]/[0.06] px-4 py-3 transition-all duration-200 hover:border-[#0071e3]/40 hover:bg-[#0071e3]/[0.10]"
+                          href={link.url}
+                          key={link.label}
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          <div className="flex items-center gap-2.5">
+                            <svg className="h-4 w-4 shrink-0 text-[#0071e3]" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" strokeLinecap="round" strokeLinejoin="round" />
+                              <polyline points="14 2 14 8 20 8" strokeLinecap="round" strokeLinejoin="round" />
+                            </svg>
+                            <span className="text-[13px] font-semibold text-[#0071e3]">{link.label}</span>
+                          </div>
+                          <div className="flex items-center gap-1.5">
+                            <span className="rounded-full bg-[#0071e3]/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.12em] text-[#0071e3]">
+                              {link.kind}
+                            </span>
+                            <svg className="h-3.5 w-3.5 text-[#0071e3]/60" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
+                              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" strokeLinecap="round" strokeLinejoin="round" />
+                              <polyline points="15 3 21 3 21 9" strokeLinecap="round" strokeLinejoin="round" />
+                              <line strokeLinecap="round" strokeLinejoin="round" x1="10" x2="21" y1="14" y2="3" />
+                            </svg>
+                          </div>
+                        </a>
                       ))}
                     </div>
                   )}
