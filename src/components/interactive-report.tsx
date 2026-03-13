@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useMemo, useState } from "react";
 import {
   executiveSummary,
@@ -360,6 +361,13 @@ export function InteractiveReport() {
 
           {/* Left: Main title card */}
           <div className="rounded-[28px] bg-white p-9 shadow-[0_4px_28px_rgba(0,0,0,0.07),0_0_0_0.5px_rgba(0,0,0,0.05)] sm:p-12">
+            <Image
+              src="/seolab-logo.png"
+              alt="SeoLab Logo"
+              width={140}
+              height={48}
+              className="mb-6 object-contain"
+            />
             <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[#86868b]">
               {projectMeta.subtitle}
             </p>
