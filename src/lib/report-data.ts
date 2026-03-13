@@ -95,7 +95,7 @@ export const quickFacts = [
     value: "5",
     label: "keyword research tracks",
     description:
-      "5 dedicated research files, each targeting a different content type and page type: terminology, user friction, game strategy, educational academy, and transactional acquisition.",
+      "4 country-specific keyword research files plus 1 semantic research — each targeting a different content type and page type across the LATAM region.",
     filter: "SEO" as const,
   },
   {
@@ -293,9 +293,9 @@ export const sections: ReportSection[] = [
     theme: "SEO",
     title: "SEO Strategy & Keyword Research",
     headline:
-      "5 keyword research files built to cover every content type and page type needed for launch.",
+      "5 keyword research files: 4 country-specific tracks and 1 semantic research, covering every content type and page type needed for launch.",
     summary:
-      "Each research track targets a distinct page type and user intent — from informational and educational content to support guides, game strategy pages, and high-conversion transactional landing pages. Together they map full search demand across LATAM.",
+      "Four research files map demand by country, capturing the vocabulary and search behaviour specific to each LATAM market. A fifth semantic research file cross-cuts all markets to define the terminology layer — ensuring content, URLs, and navigation are built on the highest-volume terms rather than regional assumptions.",
     metrics: [
       { label: "Research tracks", value: "5" },
       { label: "Target scope", value: "LATAM-wide" },
