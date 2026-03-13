@@ -335,7 +335,7 @@ export const sections: ReportSection[] = [
           "Guides the creation of help guides and support content for user friction moments.",
         links: [
           {
-            label: "Help and tutorials research",
+            label: "KWR Leagues Priorization by Country - PA",
             url: "https://docs.google.com/spreadsheets/d/1KeAK_e5pctgbc4UQZA4okRiGNSwJmNkSisjLGT-OEYQ/edit",
             kind: "Spreadsheet",
           },
@@ -356,7 +356,7 @@ export const sections: ReportSection[] = [
           "Created the base for expert-led content that can address informed casino users.",
         links: [
           {
-            label: "Strategy and mechanics research",
+            label: "KWR Leagues Priorization by Country - RD",
             url: "https://docs.google.com/spreadsheets/d/1dwjJ2hdGjvZRjSIzr_LYJJlzLkoUVNKnMi0M1WaQZsU/edit",
             kind: "Spreadsheet",
           },
@@ -377,14 +377,14 @@ export const sections: ReportSection[] = [
           "Defined the thematic foundation for an academy designed around onboarding and user education.",
         links: [
           {
-            label: "Academy research",
+            label: "KWR Leagues Priorization by Country - HN",
             url: "https://docs.google.com/spreadsheets/d/1EtaWHhWcLUFGWcJ1hVw6_Lrm2N07onKvUcORWgvcB60/edit",
             kind: "Spreadsheet",
           },
         ],
       },
       {
-        title: "Transactional Keyword Research",
+        title: "KWR Leagues Priorization by Country - SV",
         objective: "Identify high-conversion searches.",
         itemsLabel: "Examples",
         items: [
@@ -398,7 +398,7 @@ export const sections: ReportSection[] = [
           "Pinpointed the terms most likely to convert and support commercial landing pages.",
         links: [
           {
-            label: "Transactional keyword research",
+            label: "KWR Leagues Priorization by Country - SV",
             url: "https://docs.google.com/spreadsheets/d/1zGg5d6V9DIGKBvrLA5ryWwGzEfenNF5inSPFK3SWT5c/edit",
             kind: "Spreadsheet",
           },
@@ -629,22 +629,22 @@ export const sourceLibrary: ResourceLink[] = [
     kind: "Spreadsheet",
   },
   {
-    label: "Help and tutorials research",
+    label: "KWR Leagues Priorization by Country - PA",
     url: "https://docs.google.com/spreadsheets/d/1KeAK_e5pctgbc4UQZA4okRiGNSwJmNkSisjLGT-OEYQ/edit",
     kind: "Spreadsheet",
   },
   {
-    label: "Strategy and mechanics research",
+    label: "KWR Leagues Priorization by Country - RD",
     url: "https://docs.google.com/spreadsheets/d/1dwjJ2hdGjvZRjSIzr_LYJJlzLkoUVNKnMi0M1WaQZsU/edit",
     kind: "Spreadsheet",
   },
   {
-    label: "Academy research",
+    label: "KWR Leagues Priorization by Country - HN",
     url: "https://docs.google.com/spreadsheets/d/1EtaWHhWcLUFGWcJ1hVw6_Lrm2N07onKvUcORWgvcB60/edit",
     kind: "Spreadsheet",
   },
   {
-    label: "Transactional keyword research",
+    label: "KWR Leagues Priorization by Country - SV",
     url: "https://docs.google.com/spreadsheets/d/1zGg5d6V9DIGKBvrLA5ryWwGzEfenNF5inSPFK3SWT5c/edit",
     kind: "Spreadsheet",
   },
